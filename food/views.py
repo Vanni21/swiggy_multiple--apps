@@ -4,3 +4,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
 def biryani(request):
     return HttpResponse('Briyani')
+def icecream(request):
+    return HttpResponse('Amul icecreams')

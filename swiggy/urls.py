@@ -21,4 +21,5 @@ from food.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('biryani/',biryani, name='biryani'),
+    path('icecream/',icecream, name='icecream'),
 ]
